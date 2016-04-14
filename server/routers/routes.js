@@ -16,5 +16,5 @@ module.exports = function (app, express) {
   app.get('/api/items/:item_id', itemController.retrieveOne);
   app.put('/api/items/:item_id', itemController.updateOne);
   app.delete('/api/items/:item_id', itemController.deleteOne);
-
+  // app.post('api/items/:item_id', itemController.createOne);
 };

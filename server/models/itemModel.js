@@ -5,6 +5,7 @@ var itemSchema = new Schema({
   _item : {type: Number, ref : 'User' },
   itemName : String,
   borrowed : Boolean,
+  itemDescription : String,
   imageUrl: String
 })
 

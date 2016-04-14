@@ -6,10 +6,8 @@ angular.module('borrow.upload', [])
     var data = {
       itemName: $scope.itemName,
       itemImage: $scope.itemImage,
-      itemDescription: $scope.itemDescription,
-      created_At: Date()
+      itemDescription: $scope.itemDescription
     };
-
     
   };
 });
